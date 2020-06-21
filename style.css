@@ -1,0 +1,55 @@
+/* Set a background image by replacing the URL below */
+body {
+  /*background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.bg-trans {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+ul#sortable {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul#sortable li {
+  /*font-size: 2em;*/
+  /*font-weight: 700;*/
+  border-radius: .25rem;
+  background-color: #e0c6f7;
+  margin-bottom: 14px;
+  padding: 1em;
+  cursor: move;
+  -webkit-transition: background-color .2s ease-out;
+  -moz-transition: background-color .2s ease-out;
+  -ms-transition: background-color .2s ease-out;
+  -o-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+}
+
+ul#sortable li:nth-of-type(1) {
+  background-color: #8522e1;
+}
+
+ul#sortable li:nth-of-type(2) {
+  background-color: #9540e5;
+}
+
+ul#sortable li:nth-of-type(3) {
+  background-color: #ae6deb;
+}
+
+ul#sortable li:nth-of-type(4) {
+  background-color: #c79af1;
+}
+
+ul#sortable li:nth-of-type(5) {
+  background-color: #e0c6f7;
+}
