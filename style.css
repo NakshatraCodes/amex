@@ -47,12 +47,12 @@ ul#sortable {
 }
 
 ul#sortable li {
-  /*font-size: 2em;*/
+  font-size: 0.95em;
   font-weight: 600;
   border-radius: .25rem;
   /*background-color: rgba(16, 82, 186, 1);*/
   background-color: #343a40 !important;
-  margin-bottom: 9px;
+  margin-bottom: 5px;
   padding: 0.5em;
   cursor: pointer;
   color: white;
